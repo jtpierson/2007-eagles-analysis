@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+.vscode
 # C extensions
 *.so
 
@@ -222,3 +222,7 @@ __marimo__/
 # Data
 data/raw/*
 !data/raw/.gitkeep
+# Project data (rebuild by running notebooks/01_data_collection)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
